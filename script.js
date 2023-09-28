@@ -14,3 +14,6 @@ for(let i of touristSpotsArticleLessArray){
 	ans.push(mp[i]);
 }
 console.log(ans);
+
+
+//what li tag they want
