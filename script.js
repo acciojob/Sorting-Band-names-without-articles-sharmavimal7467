@@ -11,6 +11,6 @@ for(let i = 0;i<touristSpots.length;i++){
 touristSpotsArticleLessArray.sort();
 let ans = [];
 for(let i of touristSpotsArticleLessArray){
-	ans.push(i);
+	ans.push(mp[i]);
 }
 console.log(ans);
