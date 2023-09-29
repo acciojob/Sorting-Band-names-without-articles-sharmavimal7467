@@ -14,6 +14,12 @@ for(let i of touristSpotsArticleLessArray){
 	ans.push(mp[i]);
 }
 console.log(ans);
+const bandList = document.getElementById('band');
+sortedBands.forEach(band => {
+const listItem = document.createElement('li');
+listItem.textContent = band;
+bandList.appendChild(listItem);
+});
 
 
 //what li tag they want
